@@ -17,10 +17,14 @@ body {
 }
 
 .order {
-    border: #bebebe 10px solid;
-    background: #eee;
-    height: 100px;
+    border: #eee 1px solid;
     width: 100%;
+    padding: 16px;
+}
+
+.order .cover-art img {
+    width: 100%;
+    max-width: 125px;
 }
 
 header {
@@ -36,6 +40,10 @@ h1 {
     font-weight: 400;
 }
 
+b {
+    font-weight: 500;
+}
+
 i {
     font-style: normal;
 }
@@ -45,21 +53,38 @@ a {
     color: #00A1C6;
 }
 
-.promo i {
+.promo {
+    border-radius: 3px;
+    border: 1px #eee solid;
+    max-width: 375px;
+    padding: 20px;
     position: relative;
-    top: -26px;
-    left: 100px;
+}
+
+.promo .text {
+    line-height: 17px;
+    letter-spacing: 0.15px;
+    display: block;
+    width: calc(100% - 41px);
+    padding-left: 15px;
+}
+
+.promo img {
+    width: 27px;
+    height: 41px;
+    display: block;
+}
+
+.promo i {
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    right: 10px;
     color: #BEBEBE;
 }
 
-.promo {
-    border: 1px #eee solid;
-    width: 375px;
-    padding: 20px 40px;
-}
-
 .titles {
-    margin: 40px 0;
+    margin: 60px 0 40px 0;
 }
 
 .sub-titles {
@@ -71,7 +96,9 @@ a {
     display: flex;
     display: -webkit-flex;
 }
-
+._horizontal__items-center {
+    align-items: center;
+}
 ._horizontal__center {
     align-content: center;
     -webkit-align-content: center;
