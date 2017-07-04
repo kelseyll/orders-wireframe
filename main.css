@@ -40,10 +40,6 @@ h1 {
     font-weight: 400;
 }
 
-b {
-    font-weight: 500;
-}
-
 i {
     font-style: normal;
 }
@@ -89,6 +85,11 @@ a {
 
 .sub-titles {
     margin: 0 0 40px;
+}
+
+.price {
+    background-color: #eee;
+    height: 100px;
 }
 
 /* Flexbox */
