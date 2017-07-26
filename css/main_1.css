@@ -1,0 +1,23 @@
+html, body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    color: pink;
+}
+
+header {
+    background-color: #ECECEC;
+    border-bottom: 1px dotted #979797;
+    border-top: 5px solid #848484;
+    display: flex;
+    justify-content: center;
+    height: 42px;
+    width: 100%;
+}
+
+header img {
+    position: absolute;
+    top: 0;
+}
