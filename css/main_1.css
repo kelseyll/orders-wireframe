@@ -3,8 +3,17 @@ html, body {
     margin: 0;
     padding: 0;
 }
+
+body {
+    font: 13px/1.2307692308 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    color: #505958;
+    -webkit-font-smoothing: antialiased;
+}
+
 h1 {
-    color: pink;
+    color: #333333;
+    font-size: 29px;
+    font-weight: 400;
 }
 
 header {
@@ -13,11 +22,30 @@ header {
     border-top: 5px solid #848484;
     display: flex;
     justify-content: center;
-    height: 42px;
+    height: 43px;
     width: 100%;
 }
 
 header img {
     position: absolute;
     top: 0;
+}
+
+.purchases-container {
+    margin: 0 auto;
+    max-width: 975px;
+}
+
+.purchases-item {
+    border: 1px solid #E8E8E8;
+    width: 100%;
+}
+
+.promo {
+    border: 1px solid #E8E8E8;
+    width: 265px;
+}
+
+.purchases-item-art img {
+    width: 125px;
 }
