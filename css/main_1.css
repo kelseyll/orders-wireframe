@@ -16,6 +16,21 @@ h1 {
     font-weight: 400;
 }
 
+a {
+    color: #00a1c6;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.item-link {
+    color: #505958;
+}
+
+a:hover,
+.item-link:hover {
+    text-decoration: underline;
+}
+
 header {
     background-color: #ECECEC;
     border-bottom: 1px dotted #979797;
@@ -34,16 +49,18 @@ header img {
 .col {
     padding: 16px;
 }
+
 /* Apply margin-left to all columns except the first in the row */
 .col > div:not(:first-of-type) {
     margin-left: 16px
 }
+
 .top h1 {
     margin: 0;
 }
 
 .top {
-    margin: 55px 0 90px;
+    margin: 60px 0 90px;
 }
 
 .purchases-container {
@@ -53,6 +70,7 @@ header img {
 
 .purchases-item {
     border: 1px solid #E8E8E8;
+    margin-top: 50px;
     width: 100%;
 }
 
