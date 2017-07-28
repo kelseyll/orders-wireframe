@@ -32,20 +32,25 @@ a:hover,
 }
 
 header {
-    margin: 0;
-    padding: 0;
     background-color: #ECECEC;
+    box-shadow: inset 0 5px 0 0 #848484;
     border-bottom: 1px dotted #979797;
-    border-top: 5px solid #848484;
-    height: 43px;
     width: 100%;
+}
+header img {
+    display: block;
+    margin: auto;
 }
 
 footer {
     background-color: #848484;
     margin-top: 100px;
-    height: 30px;
     width: 100%;
+}
+
+footer img {
+    display: block;
+    margin: auto;
 }
 
 .col {
@@ -157,6 +162,10 @@ footer {
     font-size: 11px;
 }
 
+.purchases-item-transaction-ids span:not(:first-of-type) {
+    padding-left: 8px;
+}
+
 /* Flexbox */
 .flex {
     display: flex;
@@ -172,4 +181,12 @@ footer {
 .spread {
     justify-content: space-between;
     -webkit-justify-content: space-between;
+}
+
+.hide {
+    display: none;
+}
+
+.small {
+    font-size: 10px;
 }

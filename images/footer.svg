@@ -38,24 +38,30 @@
                         <polygon id="Fill-14" fill="#FFFFFF" mask="url(#mask-4)" points="12.1392342 10.4864907 -1.14280227e-05 10.4864907 5.66885921 0.02219322 17.808162 0.02219322"></polygon>
                     </g>
                 </g>
-                <g id="links" transform="translate(569.000000, 8.000000)" font-size="13" font-family="HelveticaNeue, Helvetica Neue" fill="#FFFFFF" font-weight="normal">
-                    <text id="terms-of-use">
-                        <tspan x="0" y="12">terms of use</tspan>
+                <g id="links" transform="translate(573.000000, 7.000000)" font-size="13" letter-spacing="0.200000003" fill="#FFFFFF" font-weight="300">
+                    <text id="terms-of-use" font-family="HelveticaNeue-Light, Helvetica Neue">
+                        <tspan x="0" y="13">terms of us</tspan>
+                        <tspan x="65.029" y="13">e</tspan>
                     </text>
-                    <text id="privacy">
-                        <tspan x="87" y="12">privacy</tspan>
+                    <text id="privacy" font-family="HelveticaNeue-Light, Helvetica Neue">
+                        <tspan x="87" y="13">privac</tspan>
+                        <tspan x="121.675" y="13">y</tspan>
                     </text>
-                    <text id="copyright-policy">
-                        <tspan x="143" y="12">copyright policy</tspan>
+                    <text id="copyright-policy" font-family="HelveticaNeue-Light, Helvetica Neue">
+                        <tspan x="143" y="13">copyright polic</tspan>
+                        <tspan x="227.874" y="13">y</tspan>
                     </text>
-                    <text id="help">
-                        <tspan x="250" y="12">help</tspan>
+                    <text id="help" font-family="HelveticaNeue-Light, Helvetica Neue">
+                        <tspan x="250" y="13">hel</tspan>
+                        <tspan x="266.733" y="13">p</tspan>
                     </text>
-                    <text id="switch-to-mobile-vie">
-                        <tspan x="289" y="12">switch to mobile view</tspan>
+                    <text id="switch-to-mobile-vie" font-family="HelveticaNeue-Light, Helvetica Neue">
+                        <tspan x="289" y="13">switch to mobile vie</tspan>
+                        <tspan x="403.032" y="13">w</tspan>
                     </text>
-                    <text id="language:-English">
-                        <tspan x="429" y="12">language: English</tspan>
+                    <text id="language:-English" font-family="HelveticaNeue-Thin, Helvetica Neue">
+                        <tspan x="429" y="13">language: Englis</tspan>
+                        <tspan x="520.444" y="13">h</tspan>
                     </text>
                 </g>
                 <g id="new" transform="translate(1104.000000, 3.000000)">
