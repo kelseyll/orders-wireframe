@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="1280px" height="48px" viewBox="0 0 1280 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="975px" height="48px" viewBox="0 0 975 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
-    <title>BC fan header</title>
+    <title>content</title>
     <desc>Created with Sketch.</desc>
     <defs>
         <polygon id="path-1" points="7.30702627 0.0222275041 0.0376039086 0.0222275041 0.0376039086 10.7142055 7.30702627 10.7142055 7.30702627 0.0222275041"></polygon>
         <polygon id="path-3" points="17.808162 0.0222275041 0 0.0222275041 0 10.4864907 17.808162 10.4864907 17.808162 0.0222275041"></polygon>
     </defs>
     <g id="loading-pattern" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="01">
+        <g id="01" transform="translate(-149.000000, 0.000000)">
             <g id="BC-fan-header" transform="translate(-81.000000, 0.000000)">
-                <rect id="grey-bar" fill="#ECECEC" x="0" y="5" width="1441" height="43"></rect>
-                <rect id="top-bar" fill="#848484" x="0" y="0" width="1441" height="5"></rect>
-                <g id="content" transform="translate(234.000000, 0.000000)">
-                    <g id="settings" transform="translate(922.000000, 0.000000)" fill="#1DA0C3">
+                <g id="content" transform="translate(230.000000, 0.000000)">
+                    <rect id="grey-bar" fill="#ECECEC" x="0" y="5" width="975" height="43"></rect>
+                    <rect id="top-bar" fill="#848484" x="0" y="0" width="975" height="5"></rect>
+                    <g id="settings" transform="translate(926.000000, 0.000000)" fill="#1DA0C3">
                         <path d="M25.9302635,26.5121299 C25.9749583,26.1810401 26,25.8436107 26,25.500317 C26,25.1568648 25.9747998,24.8194353 25.930105,24.4881871 L23.6590731,24.0502737 C23.5432155,23.637085 23.3793348,23.2440249 23.1732952,22.8777498 L24.4697597,20.9615815 C24.0592654,20.4225502 23.5776083,19.940893 23.038577,19.5303988 L21.1225671,20.8268633 C20.7561336,20.6208237 20.363232,20.456943 19.9500433,20.3410854 L19.5119714,18.069895 C19.1808816,18.0252002 18.8434522,18 18.5,18 C18.1565478,18 17.8191184,18.0252002 17.4880286,18.069895 L17.0499567,20.3410854 C16.636768,20.456943 16.2438664,20.6208237 15.8774329,20.8268633 L13.961423,19.5303988 C13.4223917,19.940893 12.9407346,20.4225502 12.5302403,20.9615815 L13.8267048,22.8777498 C13.6206652,23.2440249 13.4567845,23.637085 13.3409269,24.0502737 L11.069895,24.4881871 C11.0252002,24.8194353 11,25.1568648 11,25.500317 C11,25.8436107 11.0252002,26.1810401 11.069895,26.5121299 L13.3409269,26.9500433 C13.4567845,27.363232 13.6206652,27.7562921 13.8267048,28.1225671 L12.5300818,30.0387354 C12.9405761,30.5777667 13.4222333,31.0595824 13.961423,31.4700767 L15.8774329,30.1734536 C16.2438664,30.3794932 16.636768,30.543374 17.0499567,30.6592316 L17.4880286,32.930422 C17.8191184,32.9751168 18.1565478,33.000317 18.5,33.000317 C18.8434522,33.000317 19.1808816,32.9751168 19.5119714,32.930422 L19.9500433,30.6592316 C20.363232,30.543374 20.7561336,30.3794932 21.1225671,30.1734536 L23.038577,31.4700767 C23.5777667,31.0595824 24.0594239,30.5779252 24.4699182,30.0387354 L23.1732952,28.1225671 C23.3793348,27.7562921 23.5432155,27.3633905 23.6590731,26.9500433 L25.9302635,26.5121299 Z M18.5,28.0327022 C17.1887957,28.0327022 16.1257898,26.9696963 16.1257898,25.658492 C16.1257898,24.3472877 17.1887957,23.2842818 18.5,23.2842818 C19.8112043,23.2842818 20.8743687,24.3472877 20.8743687,25.658492 C20.8743687,26.9696963 19.8112043,28.0327022 18.5,28.0327022 L18.5,28.0327022 Z"></path>
                         <polygon id="open" points="33 25 41 25 37 29"></polygon>
                     </g>
-                    <g id="collection" transform="translate(842.000000, 0.000000)" font-size="13" font-family="HelveticaNeue-Medium, Helvetica Neue" fill="#1DA0C3" font-weight="400">
+                    <g id="collection" transform="translate(846.000000, 0.000000)" font-size="13" font-family="HelveticaNeue-Medium, Helvetica Neue" fill="#1DA0C3" font-weight="400">
                         <text>
                             <tspan x="10.854" y="30">collection</tspan>
                         </text>
                     </g>
-                    <g id="explore-link" transform="translate(93.000000, 0.000000)" font-size="13" font-family="HelveticaNeue-Medium, Helvetica Neue" fill="#1DA0C3" font-weight="400">
+                    <g id="explore-link" transform="translate(97.000000, 0.000000)" font-size="13" font-family="HelveticaNeue-Medium, Helvetica Neue" fill="#1DA0C3" font-weight="400">
                         <text id="explore">
                             <tspan x="13.436" y="30">explore</tspan>
                         </text>
                     </g>
-                    <g id="bc-logo">
+                    <g id="bc-logo" transform="translate(4.000000, 0.000000)">
                         <g id="bc-full-logo-–-header" transform="translate(0.000000, 19.000000)">
                             <g transform="translate(0.147461, 0.650391)">
                                 <g id="Group-3" transform="translate(17.770575, 0.034913)">
@@ -52,12 +52,12 @@
                             </g>
                         </g>
                     </g>
-                    <g id="feed" transform="translate(163.000000, 0.000000)" font-size="13" font-family="HelveticaNeue-Medium, Helvetica Neue" fill="#1DA0C3" font-weight="400">
+                    <g id="feed" transform="translate(167.000000, 0.000000)" font-size="13" font-family="HelveticaNeue-Medium, Helvetica Neue" fill="#1DA0C3" font-weight="400">
                         <text>
                             <tspan x="15.253" y="30">feed</tspan>
                         </text>
                     </g>
-                    <g id="search-Bandcamp-overlay" transform="translate(371.000000, 13.000000)">
+                    <g id="search-Bandcamp-overlay" transform="translate(375.000000, 13.000000)">
                         <g>
                             <rect id="Rectangle" fill="#E0E0E0" x="0" y="0" width="232" height="26" rx="3"></rect>
                             <g id="placeholder-+-icon" transform="translate(52.000000, 5.000000)">
