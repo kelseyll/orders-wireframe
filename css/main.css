@@ -22,7 +22,7 @@ a {
     cursor: pointer;
 }
 
-.item-link {
+.dark-link {
     color: #505958;
 }
 
@@ -32,18 +32,20 @@ a:hover,
 }
 
 header {
+    margin: 0;
+    padding: 0;
     background-color: #ECECEC;
     border-bottom: 1px dotted #979797;
     border-top: 5px solid #848484;
-    display: flex;
-    justify-content: center;
     height: 43px;
     width: 100%;
 }
 
-header img {
-    position: absolute;
-    top: 0;
+footer {
+    background-color: #848484;
+    margin-top: 100px;
+    height: 30px;
+    width: 100%;
 }
 
 .col {
@@ -52,7 +54,7 @@ header img {
 
 /* Apply margin-left to all columns except the first in the row */
 .col > div:not(:first-of-type) {
-    margin-left: 16px
+    margin-left: 16px;
 }
 
 .top h1 {
@@ -77,7 +79,7 @@ header img {
 }
 
 .bc-app-text {
-    padding-top: 2px;
+    padding-top: 4px;
     width: calc(100% - 41px);
 }
 
@@ -90,18 +92,24 @@ header img {
     font-style: normal;
 }
 
-.purchases-container {
+.container {
     margin: 0 auto;
     max-width: 975px;
+    width: 100%;
 }
 
 .purchases-item {
     border: 1px solid #E8E8E8;
     margin-top: 50px;
+    line-height: 19px;
     width: 100%;
 }
 
-.purchases-item-art img,
+.purchases-item:first-of-type {
+    margin-top: 40px;
+}
+
+.purchases-item-art,
 .purchases-item-date {
     width: 125px;
 }
@@ -119,6 +127,10 @@ header img {
     width: 180px;
 }
 
+.purchases-item-title {
+    line-height: 21px;
+}
+
 .purchases-item-download {
     text-align: right;
 }
@@ -126,6 +138,23 @@ header img {
 .purchases-item-status,
 .purchases-item-shipping-details {
     margin-top: 20px;
+}
+
+.purchases-item-status-checkmark {
+    padding-right: 1px;
+}
+
+.purchases-item-shipping-message {
+    font-family: georgia, serif;
+    font-style: italic;
+}
+
+.purchases-item-bottom-bar {
+    border-top: 1px solid #E8E8E8;
+}
+
+.purchases-item-payment-details {
+    font-size: 11px;
 }
 
 /* Flexbox */

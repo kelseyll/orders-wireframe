@@ -10,7 +10,7 @@
     <header>
         <img src="images/header.svg" alt="">
     </header>
-    <div class="purchases-container">
+    <div class="container">
         <div class="flex spread top">
             <h1>Purchases</h1>
             <div class="col flex spread bc-app">
@@ -24,20 +24,21 @@
             <span>showing all 10 orders</span>
             <a href="#"><span>manage payment emails</span></a>
         </div>
-        <div class="purchases-item">
+        <div class="purchases">
+            <div class="purchases-item">
             <div class="flex spread">
                 <div class="col flex">
                         <div>
-                            <div class="purchases-item-art">
+                            <div class="purchases-item-art-container">
                                 <a href="images/late-night-tales.jpg">
-                                    <img src="images/late-night-tales.jpg" alt="purchase art">
+                                    <img class="purchases-item-art" src="images/late-night-tales.jpg" alt="purchase art">
                                 </a>
                             </div>
                         </div>
                         <div>
                             <div class="purchases-item-title-details">
                                 <div>
-                                    <a class="item-link" target="_blank" href="https://latenighttales.bandcamp.com/album/late-night-tales-badbadnotgood">
+                                    <a class="purchases-item-title dark-link" target="_blank" href="https://latenighttales.bandcamp.com/album/late-night-tales-badbadnotgood">
                                         <b>Late Night Tales: BADBADNOTGOOD</b>
                                         <span> by BADBADNOTGOOD</span>
                                     </a>
@@ -51,10 +52,11 @@
                             </div>
 
                             <div class="purchases-item-status">
-                                <div class="">
-                                    <b>Ships on or around July 4th, 2017</b><span> and estimated to arrive July 24th, 2017</span>
+                                <div>
+                                    <img class="purchases-item-status-checkmark" src="images/checkmark.svg" alt="">
+                                    <b>Shipped on July 4th, 2017</b><span> and estimated to arrive July 24th, 2017</span>
                                 </div>
-                                <div class="">
+                                <div>
                                     <a href="#">order help</a>
                                 </div>
                             </div>
@@ -62,33 +64,33 @@
                             <div class="flex purchases-item-shipping-details">
                                 <div class="purchases-item-shipping-address">
                                     <div>
-                                        <b>Shipping Address</b>
+                                        <b>Shipping address</b>
                                     </div>
                                     <div>
-                                        <span>Address 1</span>
+                                        <span>Rowan Gaukrogers</span>
                                     </div>
                                     <div>
-                                        <span>Address 2</span>
+                                        <span>500, 1112 Fort St</span>
                                     </div>
                                     <div>
-                                        <span>City State</span>
+                                        <span>Victoria, BC</span>
                                     </div>
                                     <div>
-                                        <span>Zip</span>
+                                        <span>V8V 3P5</span>
                                     </div>
                                     <div>
-                                        <span>Country</span>
+                                        <span>Canada</span>
                                     </div>
                                     <div>
                                         <a href="#">change address</a>
                                     </div>
                                 </div>
-                                <div class="purchases-item-shipping-message">
+                                <div>
                                     <div>
                                         <b>Message from Late Night Tales</b>
                                     </div>
                                     <div>
-                                        <span>
+                                        <span class="purchases-item-shipping-message">
                                             If this order was marked as shipped and a
                                             message was included by the artist then this
                                             would be that  message! Thanks for your support!
@@ -118,7 +120,7 @@
                     </div>
                 </div>
             </div>
-            <div class="flex spread">
+            <div class="flex spread purchases-item-bottom-bar">
                 <div class="col flex purchases-item-payment-details">
                     <div class="purchases-item-date">
                         <span>July 23, 2017</span>
@@ -137,6 +139,10 @@
                 </div>
             </div>
         </div>
+        </div>
     </div>
+    <footer>
+        <img src="images/footer.svg" alt="">
+    </footer>
 </body>
 </html>
