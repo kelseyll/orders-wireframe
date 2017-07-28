@@ -1,37 +1,13 @@
-* {
-    padding: 0;
-    margin: 0;
+html, body {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 13px;
+    font: 13px/1.2307692308 'Helvetica Neue',Helvetica,Arial,sans-serif;
     color: #505958;
-}
-
-.container {
-    width: 100%;
-    max-width: 975px;
-    padding: 0 20px;
-}
-
-.order {
-    border: #eee 1px solid;
-    width: 100%;
-    padding: 16px;
-}
-
-.order .cover-art img {
-    width: 100%;
-    max-width: 125px;
-}
-
-header {
-    background-color: #ECECEC;
-    height: 43px;
-    border-top: 1px #848484 solid;
-    border-bottom: 1px dotted #979797;
+    -webkit-font-smoothing: antialiased;
 }
 
 h1 {
@@ -40,56 +16,116 @@ h1 {
     font-weight: 400;
 }
 
-i {
-    font-style: normal;
-}
-
 a {
+    color: #00a1c6;
     text-decoration: none;
-    color: #00A1C6;
+    cursor: pointer;
 }
 
-.promo {
+.item-link {
+    color: #505958;
+}
+
+a:hover,
+.item-link:hover {
+    text-decoration: underline;
+}
+
+header {
+    background-color: #ECECEC;
+    border-bottom: 1px dotted #979797;
+    border-top: 5px solid #848484;
+    display: flex;
+    justify-content: center;
+    height: 43px;
+    width: 100%;
+}
+
+header img {
+    position: absolute;
+    top: 0;
+}
+
+.col {
+    padding: 16px;
+}
+
+/* Apply margin-left to all columns except the first in the row */
+.col > div:not(:first-of-type) {
+    margin-left: 16px
+}
+
+.top h1 {
+    margin: 0;
+}
+
+.top {
+    margin: 60px 0 90px;
+}
+
+/* Promotion box */
+.bc-app {
     border-radius: 3px;
-    border: 1px #eee solid;
-    max-width: 375px;
-    padding: 20px;
     position: relative;
+    border: 1px solid #E8E8E8;
+    width: 335px;
 }
 
-.promo .text {
-    line-height: 17px;
-    letter-spacing: 0.15px;
-    display: block;
-    width: calc(100% - 41px);
-    padding-left: 15px;
-}
-
-.promo img {
+.bc-app-art {
     width: 27px;
     height: 41px;
-    display: block;
 }
 
-.promo i {
+.bc-app-text {
+    padding-top: 2px;
+    width: calc(100% - 41px);
+}
+
+.bc-app-x {
     position: absolute;
     cursor: pointer;
     top: 10px;
     right: 10px;
     color: #BEBEBE;
+    font-style: normal;
 }
 
-.titles {
-    margin: 60px 0 40px 0;
+.purchases-container {
+    margin: 0 auto;
+    max-width: 975px;
 }
 
-.sub-titles {
-    margin: 0 0 40px;
+.purchases-item {
+    border: 1px solid #E8E8E8;
+    margin-top: 50px;
+    width: 100%;
 }
 
-.price {
-    background-color: #eee;
-    height: 100px;
+.purchases-item-art img,
+.purchases-item-date {
+    width: 125px;
+}
+
+.purchases-item-shipping-address div {
+    width: 220px;
+}
+
+.purchases-item-shipping-message div {
+    width: 300px;
+}
+
+.purchases-item-price-details,
+.purchases-item-total {
+    width: 180px;
+}
+
+.purchases-item-download {
+    text-align: right;
+}
+
+.purchases-item-status,
+.purchases-item-shipping-details {
+    margin-top: 20px;
 }
 
 /* Flexbox */
@@ -97,35 +133,14 @@ a {
     display: flex;
     display: -webkit-flex;
 }
-._horizontal__items-center {
-    align-items: center;
-}
-._horizontal__center {
-    align-content: center;
-    -webkit-align-content: center;
-}
 
-._direction__column {
+.flex-column {
+    display: flex;
+    display: -webkit-flex;
     flex-direction: column;
-    -webkit-flex-direction: column;
 }
 
-._alignself__center {
-    align-self: center;
-    -webkit-align-self: center;
-}
-
-._alignself__baseline {
-    align-self: baseline;
-    -webkit-align-self: baseline;
-}
-
-._justify__between {
+.spread {
     justify-content: space-between;
     -webkit-justify-content: space-between;
-}
-
-._justify__center {
-    justify-content: center;
-    -webkit-justify-content: center;
 }

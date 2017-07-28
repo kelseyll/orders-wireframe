@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    color: #505958;
+}
+
+.container {
+    width: 100%;
+    max-width: 975px;
+    padding: 0 20px;
+}
+
+.order {
+    border: #eee 1px solid;
+    width: 100%;
+    padding: 16px;
+}
+
+.order .cover-art img {
+    width: 100%;
+    max-width: 125px;
+}
+
+header {
+    background-color: #ECECEC;
+    height: 43px;
+    border-top: 1px #848484 solid;
+    border-bottom: 1px dotted #979797;
+}
+
+h1 {
+    color: #333333;
+    font-size: 29px;
+    font-weight: 400;
+}
+
+i {
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+    color: #00A1C6;
+}
+
+.promo {
+    border-radius: 3px;
+    border: 1px #eee solid;
+    max-width: 375px;
+    padding: 20px;
+    position: relative;
+}
+
+.promo .text {
+    line-height: 17px;
+    letter-spacing: 0.15px;
+    display: block;
+    width: calc(100% - 41px);
+    padding-left: 15px;
+}
+
+.promo img {
+    width: 27px;
+    height: 41px;
+    display: block;
+}
+
+.promo i {
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    right: 10px;
+    color: #BEBEBE;
+}
+
+.titles {
+    margin: 60px 0 40px 0;
+}
+
+.sub-titles {
+    margin: 0 0 40px;
+}
+
+.price {
+    background-color: #eee;
+    height: 100px;
+}
+
+/* Flexbox */
+.flex {
+    display: flex;
+    display: -webkit-flex;
+}
+._horizontal__items-center {
+    align-items: center;
+}
+._horizontal__center {
+    align-content: center;
+    -webkit-align-content: center;
+}
+
+._direction__column {
+    flex-direction: column;
+    -webkit-flex-direction: column;
+}
+
+._alignself__center {
+    align-self: center;
+    -webkit-align-self: center;
+}
+
+._alignself__baseline {
+    align-self: baseline;
+    -webkit-align-self: baseline;
+}
+
+._justify__between {
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
+}
+
+._justify__center {
+    justify-content: center;
+    -webkit-justify-content: center;
+}

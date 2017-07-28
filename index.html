@@ -1,43 +1,142 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>wireframe</title>
-        <link rel="stylesheet" href="main.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-    <body class="flex _direction__column ">
-        <header></header>
-        <div class="container flex _direction__column _alignself__center">
-            <div class="flex _justify__between titles">
-                <h1>Purchases</h1>
-                <div class="promo flex _horizontal__items-center">
-                    <img src="images/phone.png" alt="">
-                    <span class="text">Stream all of your digital purchases with the <b>free Bandcamp app</b> for <a href="#">Android</a> and <a href="#">iOS</a>.</span>
-                    <i>✕</i>
-                </div>
+<head>
+    <meta charset="utf-8">
+    <title>[username]'s purchases | Bandcamp</title>
+    <link rel="icon" href="images/bc_favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <header>
+        <img src="images/header.svg" alt="">
+    </header>
+    <div class="purchases-container">
+        <div class="flex spread top">
+            <h1>Purchases</h1>
+            <div class="col flex spread bc-app">
+                <img class="bc-app-art" src="images/phone.png" alt="phone">
+                <span class="bc-app-text">Stream all of your digital purchases with the </br>
+                    <b>free Bandcamp app</b> for <a href="#">Android</a> and <a href="#">iOS</a>.</span>
+                <i class="bc-app-x">✕</i>
             </div>
-            <div class="flex _justify__between sub-titles">
-                <span>Showing all orders</span>
-                <a href="#"><span>manage payment emails</span></a>
-            </div>
-            <div class="order flex _direction__row _justify__between">
-                <div class="flex _direction__row">
-                    <div class="cover-art">
-                        <img src="images/negative-spaces.jpg" alt="">
-                    </div>
-                    <div class="title-status-ship">
-                        <b>Positive Spaces</b> by Gremlin Party</br>
-                        Digital Album
-                    </div>
-                </div>
-                <div class="price-download">
-                    <a href="">download album</a>
-                    <div class="price">
+        </div>
+        <div class="flex spread">
+            <span>showing all 10 orders</span>
+            <a href="#"><span>manage payment emails</span></a>
+        </div>
+        <div class="purchases-item">
+            <div class="flex spread">
+                <div class="col flex">
+                        <div>
+                            <div class="purchases-item-art">
+                                <a href="images/late-night-tales.jpg">
+                                    <img src="images/late-night-tales.jpg" alt="purchase art">
+                                </a>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="purchases-item-title-details">
+                                <div>
+                                    <a class="item-link" target="_blank" href="https://latenighttales.bandcamp.com/album/late-night-tales-badbadnotgood">
+                                        <b>Late Night Tales: BADBADNOTGOOD</b>
+                                        <span> by BADBADNOTGOOD</span>
+                                    </a>
+                                </div>
+                                <div class="purchases-item-type">
+                                    <span>Compact Disc (CD) + Digital Album</span>
+                                </div>
+                                <div class="purchases-item-option">
+                                    <span>Option</span>
+                                </div>
+                            </div>
 
+                            <div class="purchases-item-status">
+                                <div class="">
+                                    <b>Ships on or around July 4th, 2017</b><span> and estimated to arrive July 24th, 2017</span>
+                                </div>
+                                <div class="">
+                                    <a href="#">order help</a>
+                                </div>
+                            </div>
+
+                            <div class="flex purchases-item-shipping-details">
+                                <div class="purchases-item-shipping-address">
+                                    <div>
+                                        <b>Shipping Address</b>
+                                    </div>
+                                    <div>
+                                        <span>Address 1</span>
+                                    </div>
+                                    <div>
+                                        <span>Address 2</span>
+                                    </div>
+                                    <div>
+                                        <span>City State</span>
+                                    </div>
+                                    <div>
+                                        <span>Zip</span>
+                                    </div>
+                                    <div>
+                                        <span>Country</span>
+                                    </div>
+                                    <div>
+                                        <a href="#">change address</a>
+                                    </div>
+                                </div>
+                                <div class="purchases-item-shipping-message">
+                                    <div>
+                                        <b>Message from Late Night Tales</b>
+                                    </div>
+                                    <div>
+                                        <span>
+                                            If this order was marked as shipped and a
+                                            message was included by the artist then this
+                                            would be that  message! Thanks for your support!
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                <div class="col flex-column spread">
+                    <div class="purchases-item-download">
+                        <a href="#">download <span>album</span></a>
+                    </div>
+                    <div class="purchases-item-price-details">
+                        <div class="flex spread">
+                            <span>Subtotal</span>
+                            <span>$10.00</span>
+                        </div>
+                        <div class="flex spread">
+                            <span>Subtotal</span>
+                            <span>$10.00</span>
+                        </div>
+                        <div class="flex spread">
+                            <span>Subtotal</span>
+                            <span>$10.00</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex spread">
+                <div class="col flex purchases-item-payment-details">
+                    <div class="purchases-item-date">
+                        <span>July 23, 2017</span>
+                    </div>
+                    <div>
+                        <span>Paid by: kelsey.legault@gmail.com</span>
+                        <span>via Paypal ID: 34FKFI3984HFK4I53</span>
+                        <span>Bandcamp ID: 83719504</span>
+                    </div>
+                </div>
+                <div class="col purchases-item-total">
+                    <div class="flex spread">
+                        <b>Total</b>
+                        <b>$30.00</b>
                     </div>
                 </div>
             </div>
         </div>
-    </body>
+    </div>
+</body>
 </html>
