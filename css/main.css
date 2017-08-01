@@ -113,8 +113,8 @@ footer img {
 
 .container {
     margin: 0 auto;
-    max-width: 975px;
-    width: 100%;
+    padding: 0 10px;
+    width: 975px;
 }
 
 /* Purchase card - - - - - - - - - - */
@@ -241,33 +241,4 @@ applied to the refunded amount  */
 
 .small {
     font-size: 10px;
-}
-
-/* Alert of non-responsive */
-.alert {
-    display: none;
-    background-color: rgba(255,255,255,0.7);
-    position: fixed;
-    height: 100%;
-    width: 100%;
-    z-index: 1;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-.alert h1 {
-    font-weight: 400;
-    margin-bottom: 3px;
-}
-
-.alert h1, h3 {
-    padding: 0 90px;
-    text-shadow: 1px 1px 10px #FFF;
-}
-
-@media (max-width: 975px) {
-    .alert {
-        display: flex;
-    }
 }
