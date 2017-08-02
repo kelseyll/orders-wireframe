@@ -43,6 +43,10 @@ a:hover,
     text-decoration: underline;
 }
 
+.small {
+    font-size: 10px;
+}
+
 /* Static Header and Footer - - - - - - - - - - */
 header {
     background-color: #ECECEC;
@@ -119,6 +123,7 @@ footer img {
 
 /* Purchase card - - - - - - - - - - */
 .purchases-item {
+    background-color: #FFF;
     border: 1px solid #E8E8E8;
     line-height: 19px;
     margin-top: 50px;
@@ -213,14 +218,12 @@ applied to the refunded amount  */
 }
 
 /* Flexbox */
-.flex,
-.mobile-flex-column {
+.flex {
     display: flex;
     display: -webkit-flex;
 }
 
-.flex-column,
-.mobile-flex {
+.flex-column {
     display: flex;
     display: -webkit-flex;
     flex-direction: column;
@@ -231,14 +234,12 @@ applied to the refunded amount  */
     -webkit-justify-content: space-between;
 }
 
+
+/* Hide Elements */
 .hide {
     display: none;
 }
 
 .soft-hide {
     visibility: hidden;
-}
-
-.small {
-    font-size: 10px;
 }
