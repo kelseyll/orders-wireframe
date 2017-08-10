@@ -1,0 +1,245 @@
+/*
+Order History Prototype
+Master Stylesheet
+July 2017
+ */
+
+
+/* Global Styles - - - - - - - - - - */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Typography - - - - - - - - - - */
+body {
+    color: #505958;
+    font: 13px 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+h1 {
+    color: #333333;
+    font-size: 29px;
+    font-weight: 400;
+}
+
+a {
+    color: #00a1c6;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.dark-link {
+    color: #505958;
+}
+
+a:hover,
+.item-link:hover {
+    text-decoration: underline;
+}
+
+.small {
+    font-size: 10px;
+}
+
+/* Static Header and Footer - - - - - - - - - - */
+header {
+    background-color: #ECECEC;
+    box-shadow: inset 0 5px 0 0 #848484;
+    border-bottom: 1px dotted #979797;
+    width: 100%;
+}
+header img {
+    display: block;
+    margin: auto;
+}
+
+footer {
+    background-color: #848484;
+    margin-top: 100px;
+    width: 100%;
+}
+
+footer img {
+    display: block;
+    margin: auto;
+}
+
+/* Columns - - - - - - - - - - */
+.col {
+    padding: 16px;
+}
+
+/* Apply margin-left to all columns except the first in the row */
+.col > div:not(:first-of-type) {
+    margin-left: 16px;
+}
+
+.top h1 {
+    margin: 0;
+}
+
+.top {
+    margin: 60px 0 90px;
+}
+
+/* App promotion box - - - - - - - - - - */
+.bc-app {
+    border: 1px solid #E8E8E8;
+    border-radius: 3px;
+    position: relative;
+    width: 365px;
+}
+
+.bc-app-art {
+    height: 41px;
+    width: 27px;
+}
+
+.bc-app-text {
+    padding: 5px 10px 0 0;
+    width: calc(100% - 41px);
+}
+
+.bc-app-x {
+    color: #BEBEBE;
+    cursor: pointer;
+    font-style: normal;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 10px;
+    width: 975px;
+}
+
+/* Purchase card - - - - - - - - - - */
+.purchases-item {
+    background-color: #FFF;
+    border: 1px solid #E8E8E8;
+    line-height: 19px;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.purchases-item:first-of-type {
+    margin-top: 40px;
+}
+
+.purchases-item p {
+    margin: 0;
+}
+
+/* Purchase card data - - - - - - - - - - */
+/* Account for link overlaying image */
+.purchases-item-art {
+    margin-bottom: -4px;
+    outline: 1px solid rgba(0,0,0,0.05);
+}
+
+.purchases-item-art,
+.purchases-item-date {
+    width: 125px;
+}
+
+.purchases-item-shipping-address div {
+    width: 220px;
+}
+
+.purchases-item-shipping-message div {
+    width: 300px;
+}
+
+.purchases-item-price-details,
+.purchases-item-total {
+    width: 180px;
+}
+
+.purchases-item-title {
+    line-height: 21px;
+}
+
+.purchases-item-download {
+    text-align: right;
+}
+
+.purchases-item-status,
+.purchases-item-shipping-details {
+    margin-top: 20px;
+}
+
+.purchases-item-status-checkmark {
+    padding-left: 1px;
+}
+
+.purchases-item-status-tag {
+    color: #007D00;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 10px;
+    border-radius: 3px;
+    border: 1px solid #007D00;
+    padding: 1px 5px;
+}
+
+.purchases-item-shipping-message {
+    font-family: georgia, serif;
+    font-style: italic;
+}
+
+.purchases-item-bottom-bar {
+    border-top: 1px solid #E8E8E8;
+}
+
+.purchases-item-payment-details {
+    font-size: 11px;
+}
+
+.purchases-item-transaction-ids span:not(:first-of-type) {
+    padding-left: 8px;
+}
+
+.purchases-item-total {
+    box-sizing: content-box;
+}
+
+/* Remove the global left margin
+applied to the refunded amount  */
+.col > div.purchases-item-total-refund {
+    margin-left: 0;
+}
+
+/* Flexbox */
+.flex {
+    display: flex;
+    display: -webkit-flex;
+}
+
+.flex-column {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+}
+
+.spread {
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
+}
+
+
+/* Hide Elements */
+.hide {
+    display: none;
+}
+
+.soft-hide {
+    visibility: hidden;
+}
