@@ -1,0 +1,45 @@
+.flex {
+    display: flex;
+    -webkit-display: flex;
+    flex-direction: column;
+}
+
+html {
+    background-color: #f1f1f1;
+}
+
+.container {
+    width: 100%;
+}
+
+.col {
+    padding: 10px;
+}
+
+.col > div:not(:first-of-type) {
+    margin-left: 0px;
+}
+
+.top {
+    margin: 30px 0 20px;
+}
+
+.purchases-item {
+    margin-top: 25px;
+}
+
+.purchases-item:first-of-type {
+    margin-top: 20px;
+}
+
+.bc-app {
+    display: none;
+}
+
+/* Desktop Elements */
+header,
+footer,
+.manage-payment-emails-link,
+.purchases-item-download {
+    display: none;
+}

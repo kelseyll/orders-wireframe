@@ -145,9 +145,13 @@ footer img {
     outline: 1px solid rgba(0,0,0,0.05);
 }
 
-.purchases-item-art,
-.purchases-item-date {
+.purchases-item-art {
     width: 125px;
+}
+.purchases-item-date {
+    min-width: 125px;
+    /*testing flex-basis*/
+    flex-basis: 125px;
 }
 
 .purchases-item-shipping-address div {
